@@ -19,3 +19,22 @@ public class Solution
     }
        
 }
+
+
+                        (or)
+
+
+//XOR operation 
+import java.util.*;
+public class Solution
+{
+    public static int singleNonDuplicate(ArrayList<Integer> arr)
+    {
+        //    Write your code here.
+        int res = 0;
+        for(int ele:arr)
+            res ^= ele;
+        return res;
+    }
+       
+}
